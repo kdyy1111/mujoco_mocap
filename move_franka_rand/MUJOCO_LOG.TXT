@@ -1,0 +1,132 @@
+Thu Apr 17 14:45:03 2025
+WARNING: Nan, Inf or huge value in QACC at DOF 0. The simulation is unstable. Time = 679.1300.
+
+Thu Apr 17 15:33:55 2025
+WARNING: Nan, Inf or huge value in QACC at DOF 0. The simulation is unstable. Time = 0.1000.
+
+Mon Apr 21 22:36:52 2025
+ERROR: mjv_updateSceneState: m->nu changed
+
+Mon Apr 21 22:38:27 2025
+ERROR: mjv_updateSceneState: m->nu changed
+
+Mon Apr 21 22:38:58 2025
+ERROR: mjv_updateSceneState: m->nu changed
+
+Mon Apr 21 22:39:28 2025
+ERROR: mjv_updateSceneState: m->nu changed
+
+Mon Apr 21 22:39:39 2025
+ERROR: mjv_updateSceneState: m->nu changed
+
+Mon Apr 21 22:40:29 2025
+ERROR: mjv_updateSceneState: m->nu changed
+
+Mon Apr 21 22:40:50 2025
+ERROR: mjv_updateSceneState: m->nu changed
+
+Mon Apr 21 22:43:11 2025
+ERROR: mjv_updateSceneState: m->nu changed
+
+Mon Apr 21 22:43:32 2025
+ERROR: mjv_updateSceneState: m->nu changed
+
+Mon Apr 21 22:43:45 2025
+ERROR: mjv_updateSceneState: m->nu changed
+
+Mon Apr 21 22:43:57 2025
+ERROR: mjv_updateSceneState: m->nu changed
+
+Mon Apr 21 22:44:13 2025
+ERROR: mjv_updateSceneState: m->nu changed
+
+Mon Apr 21 22:44:36 2025
+ERROR: mjv_updateSceneState: m->nu changed
+
+Mon Apr 21 22:45:41 2025
+ERROR: mjv_updateSceneState: m->nu changed
+
+Mon Apr 21 22:50:24 2025
+ERROR: mjv_updateSceneState: m->nu changed
+
+Tue Apr 22 12:04:49 2025
+ERROR: mjv_updateSceneState: m->nu changed
+
+Tue Apr 22 12:20:30 2025
+ERROR: mjv_updateSceneState: m->nu changed
+
+Tue Apr 22 12:24:09 2025
+ERROR: mjv_updateSceneState: m->nu changed
+
+Tue Apr 22 12:28:12 2025
+ERROR: mjv_updateSceneState: m->nu changed
+
+Tue Apr 22 12:39:43 2025
+ERROR: mjv_updateSceneState: m->nu changed
+
+Tue Apr 22 12:58:21 2025
+ERROR: mjv_updateSceneState: m->nu changed
+
+Tue Apr 22 12:58:40 2025
+ERROR: mjv_updateSceneState: m->nu changed
+
+Tue Apr 22 12:59:05 2025
+ERROR: mjv_updateSceneState: m->nu changed
+
+Tue Apr 22 13:46:20 2025
+ERROR: mjv_updateSceneState: m->nu changed
+
+Tue Apr 22 13:51:06 2025
+ERROR: mjv_updateSceneState: m->nu changed
+
+Tue Apr 22 13:53:24 2025
+ERROR: mjv_updateSceneState: m->nu changed
+
+Tue Apr 22 13:55:21 2025
+ERROR: mjv_updateSceneState: m->nu changed
+
+Tue Apr 22 14:36:13 2025
+ERROR: mjv_updateSceneState: m->nu changed
+
+Tue Apr 22 14:48:24 2025
+ERROR: mjv_updateSceneState: m->nu changed
+
+Tue Apr 22 18:59:15 2025
+ERROR: mjv_updateSceneState: m->nu changed
+
+Wed Apr 23 11:59:10 2025
+ERROR: mjv_updateSceneState: m->nu changed
+
+Wed Apr 23 21:24:04 2025
+ERROR: mjv_updateSceneState: m->nu changed
+
+Wed Apr 23 21:30:33 2025
+ERROR: mjv_updateSceneState: m->nu changed
+
+Thu Apr 24 10:45:50 2025
+ERROR: mjv_updateSceneState: m->nu changed
+
+Thu Apr 24 10:48:36 2025
+ERROR: mjv_updateSceneState: m->nu changed
+
+Thu Apr 24 10:49:07 2025
+ERROR: mjv_updateSceneState: m->nu changed
+
+Thu Apr 24 10:49:35 2025
+ERROR: mjv_updateSceneState: m->nu changed
+
+Thu Apr 24 10:50:08 2025
+ERROR: mjv_updateSceneState: m->nu changed
+
+Thu Apr 24 10:50:40 2025
+ERROR: mjv_updateSceneState: m->nu changed
+
+Thu Apr 24 10:55:50 2025
+ERROR: mjv_updateSceneState: m->nu changed
+
+Thu Apr 24 10:59:40 2025
+ERROR: mjv_updateSceneState: m->nu changed
+
+Thu Apr 24 11:10:35 2025
+ERROR: mjv_updateSceneState: m->nu changed
+

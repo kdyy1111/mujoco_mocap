@@ -1,0 +1,15 @@
+<mujoco model="freight_panda">
+    
+    <body name="chassis" pos="0 0 0" euler='0 0 0'>
+        <joint type="free"/>
+
+        <body name="freight_link" childclass="freight" pos="0 0 0">
+            <include file="freight.xml"/>
+        </body>
+        
+        <body name="panda_link" childclass="panda" pos="-0.08 0 0.43">
+            <include file="panda.xml"/>
+        </body>
+    </body>
+
+</mujoco>

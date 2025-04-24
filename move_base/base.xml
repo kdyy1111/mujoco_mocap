@@ -1,0 +1,46 @@
+<mujoco model="4_wheel_robot_mocap">
+
+  <compiler angle="radian" coordinate="local"/>
+  <option timestep="0.01" gravity="0 0 -9.81"/>
+
+  <asset>
+  <texture name="wheel_texture" type="2d" builtin="checker" width="64" height="64"
+           rgb1="0 0 0" rgb2="1 1 1" />
+  <material name="wheel_mat" texture="wheel_texture" texrepeat="10 1"/>
+  <texture name="wheel_texture2" type="2d" builtin="checker" width="64" height="64"
+           rgb1="0 1 0" rgb2="1 2 1" />
+  <material name="wheel_mat2" texture="wheel_texture2" texrepeat="10 1"/>
+  </asset>
+
+  <worldbody>
+
+    <body name="base" pos="0 0 0.05">
+      <joint name="base_free_joint" type="free"/>
+      <geom type="box" size="0.15 0.1 0.05" rgba="0.2 0.2 0.8 1"/>
+
+      <body name="front_left_wheel" pos="0.1 -0.135 0">
+        <joint name="front_left_wheel_joint" type="hinge" axis="0 1 0"/>
+        <geom type="cylinder" size="0.06 0.015" material="wheel_mat" fromto="0 0 0 0 0.03 0"/>
+      </body>
+
+      <body name="front_right_wheel" pos="0.1 0.105 0">
+        <joint name="front_right_wheel_joint" type="hinge" axis="0 1 0"/>
+        <geom type="cylinder" size="0.06 0.015" material="wheel_mat2" fromto="0 0 0 0 0.03 0"/>
+      </body>
+
+      <body name="rear_left_wheel" pos="-0.1 -0.135 0">
+        <geom type="cylinder" size="0.06 0.015" fromto="0 0 0 0 0.03 0" rgba="0.1 0.1 0.1 1"/>
+      </body>
+
+      <body name="rear_right_wheel" pos="-0.1 0.105 0">
+        <geom type="cylinder" size="0.06 0.015" fromto="0 0 0 0 0.03 0" rgba="0.1 0.1 0.1 1"/>
+      </body>
+    </body>
+  </worldbody>
+
+  <actuator>
+    <motor joint="front_left_wheel_joint" ctrlrange="-1 1" ctrllimited="true"/>
+    <motor joint="front_right_wheel_joint" ctrlrange="-1 1" ctrllimited="true"/>
+  </actuator>
+  
+</mujoco>
